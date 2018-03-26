@@ -5,8 +5,6 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.widget.ListView;
 
-import dagger.internal.DaggerCollections;
-
 /**
  * Created by Administrator on 2018/3/26 0026.
  */
