@@ -8,4 +8,5 @@ import dagger.Component;
 
 @Component
 public interface FactoryActivityCompent {
+    void inject(PersionFactory factory);
 }
