@@ -30,4 +30,19 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(NAME,name);
         return new Intent();
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 }
